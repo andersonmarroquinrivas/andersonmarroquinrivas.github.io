@@ -1,1 +1,1 @@
-// JavaScript file for future enhancements
+// Archivo JavaScript para futuras funcionalidades
