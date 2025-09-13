@@ -30,3 +30,13 @@ botones.forEach(boton => {
   });
 });
 
+document.querySelectorAll('.acordeon-btn').forEach(btn => {
+  btn.addEventListener('click', function () {
+    const panel = this.nextElementSibling;
+    panel.classList.toggle('activo');
+
+    if (panel.classList.contains('activo')) {
+      panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
